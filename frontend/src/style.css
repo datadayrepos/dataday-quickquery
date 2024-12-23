@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    background-color: #eceff166;
+    font-family: var(--font-family);
+}
+
+#app {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    padding: 10px;
+}
+
+.p-datatable .p-sortable-column.p-highlight {
+    color: #007bff !important;
+}
+
+.p-menu, .p-tieredmenu {
+    padding: 0.3rem 0 !important;
+}
+
+a {
+    color: var(--primary-color);
+}
+
+a:hover {
+    color: #16e1b8;
+}
